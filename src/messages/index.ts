@@ -1,0 +1,25 @@
+import { IMessages } from './interface';
+
+export const MESSAGES: IMessages = {
+  noDataFound: 'No data found',
+  noIssueFound: 'No issues found',
+  noRepositoryFound: 'No repository found',
+  noCommentFound: 'No comments found',
+  loadMore: 'Load More',
+  searchLabel: 'Search',
+  repositoryLabel: 'Repository',
+  stateLabel: 'State',
+  homeLabel: 'Github Issues',
+  lookUpDefaultText: 'Please type in to search',
+  errorLabel: 'Errors',
+  issueFooterText: 'Created by {0} {1} {2}',
+  opened: 'Opened',
+  closed: 'Closed',
+  comments: 'Comments',
+  issueLogLine: 'Created by {0} {1}',
+  commentTitle: '{0} commented {1}',
+  back: 'Back',
+  noContentAvailable: 'No Content available',
+  issueSearch: 'Search issue by name or body',
+  repoSearch: 'Search Repo by name',
+};

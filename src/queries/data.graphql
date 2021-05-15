@@ -1,0 +1,101 @@
+# import { SearchType } from "../../types"
+
+fragment PageInfoFields on PageInfo {
+  endCursor
+  startCursor
+  hasNextPage
+  hasPreviousPage
+}
+
+fragment IssueFields on Issue {
+  id
+  __typename
+  number
+  title
+  body
+  bodyHTML
+  createdAt
+  closed
+  closedAt
+  author {
+    login
+    avatarUrl(size: 24)
+  }
+}
+
+fragment RepositoryFields on Repository {
+  id
+  name
+  nameWithOwner
+  __typename
+  owner {
+    login
+    avatarUrl(size: 24)
+  }
+}
+
+fragment CommentFields on IssueComment {
+  id
+  __typename
+  author {
+    login
+    avatarUrl(size: 24)
+  }
+  createdAt
+  bodyHTML
+}
+
+query getSearch(
+  $after: String
+  $before: String
+  $first: Int
+  $last: Int
+  $query: String!
+  $type: SearchType!
+) {
+  search(after: $after, before: $before, first: $first, last: $last, query: $query, type: $type) {
+    edges {
+      node {
+        ... on Issue {
+          ...IssueFields
+          repository {
+            ...RepositoryFields
+          }
+        }
+        ... on Repository {
+          ...RepositoryFields
+        }
+      }
+    }
+    pageInfo {
+      ...PageInfoFields
+    }
+  }
+}
+
+query getIssueDetails(
+  $name: String!
+  $owner: String!
+  $issueNumber: Int!
+  $first: Int
+  $after: String
+) {
+  repository(name: $name, owner: $owner) {
+    id
+    name
+    issue(number: $issueNumber) {
+      ...IssueFields
+      comments(first: $first, after: $after) {
+        totalCount
+        edges {
+          node {
+            ...CommentFields
+          }
+        }
+        pageInfo {
+          ...PageInfoFields
+        }
+      }
+    }
+  }
+}

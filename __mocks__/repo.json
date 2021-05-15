@@ -1,0 +1,123 @@
+{
+    "data": {
+      "search": {
+        "issueCount": 0,
+        "edges": [
+          {
+            "node": {
+              "id": "MDEwOlJlcG9zaXRvcnk2ODQzNzc5MQ==",
+              "__typename": "Repository",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/21968801?v=4",
+                "login": "creytiv"
+              },
+              "nameWithOwner": "creytiv/re"
+            }
+          },
+          {
+            "node": {
+              "id": "MDEwOlJlcG9zaXRvcnkyNjc4NzMxOTc=",
+              "__typename": "Repository",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/7118177?u=bb2518ed3d5b34846e6e778845e42b9564c15f5a&v=4",
+                "login": "natemoo-re"
+              },
+              "nameWithOwner": "natemoo-re/natemoo-re"
+            }
+          },
+          {
+            "node": {
+              "id": "MDEwOlJlcG9zaXRvcnk5MzczMjcwMg==",
+              "__typename": "Repository",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/4082929?v=4",
+                "login": "Qihoo360"
+              },
+              "nameWithOwner": "Qihoo360/RePlugin"
+            }
+          },
+          {
+            "node": {
+              "id": "MDEwOlJlcG9zaXRvcnkyMzA4Njg5Mw==",
+              "__typename": "Repository",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4",
+                "login": "google"
+              },
+              "nameWithOwner": "google/re2"
+            }
+          },
+          {
+            "node": {
+              "id": "MDEwOlJlcG9zaXRvcnkyNzU4NzkyMQ==",
+              "__typename": "Repository",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3033386?v=4",
+                "login": "day8"
+              },
+              "nameWithOwner": "day8/re-frame"
+            }
+          },
+          {
+            "node": {
+              "id": "MDEwOlJlcG9zaXRvcnk0ODAyNzg0NA==",
+              "__typename": "Repository",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/16023071?v=4",
+                "login": "ReSwift"
+              },
+              "nameWithOwner": "ReSwift/ReSwift"
+            }
+          },
+          {
+            "node": {
+              "id": "MDEwOlJlcG9zaXRvcnkyMjc0MTM4MA==",
+              "__typename": "Repository",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1193973?v=4",
+                "login": "sensepost"
+              },
+              "nameWithOwner": "sensepost/reGeorg"
+            }
+          },
+          {
+            "node": {
+              "id": "MDEwOlJlcG9zaXRvcnk5ODU2NTU3NQ==",
+              "__typename": "Repository",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/16943930?v=4",
+                "login": "facebookresearch"
+              },
+              "nameWithOwner": "facebookresearch/ReAgent"
+            }
+          },
+          {
+            "node": {
+              "id": "MDEwOlJlcG9zaXRvcnk0NTExNDg=",
+              "__typename": "Repository",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/4017?v=4",
+                "login": "jimweirich"
+              },
+              "nameWithOwner": "jimweirich/re"
+            }
+          },
+          {
+            "node": {
+              "id": "MDEwOlJlcG9zaXRvcnk1ODU4MDczOQ==",
+              "__typename": "Repository",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/5341982?v=4",
+                "login": "ady624"
+              },
+              "nameWithOwner": "ady624/CoRE"
+            }
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "Y3Vyc29yOjEw",
+          "hasNextPage": true
+        }
+      }
+    }
+  }

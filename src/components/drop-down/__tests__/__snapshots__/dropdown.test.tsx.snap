@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drop Down component renders the dropdwon component 1`] = `
+<div
+  class="styles__DropDownHeader-sc-1c97jj7-1 dPLnHw"
+  data-testid="drop-down-selected-value"
+>
+  Closed
+</div>
+`;

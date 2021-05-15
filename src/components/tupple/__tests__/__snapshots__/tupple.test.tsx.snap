@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tupple component should render repo component 1`] = `
+<div
+  class="styles__RepoTuppleContainer-sc-1oca8og-2 dSRkdy"
+  data-testid="repo-tupple-MDEwOlJlcG9zaXRvcnkyMTM1NDI4ODc="
+>
+  <p>
+    <img
+      alt="avatar"
+      data-testid="repo-tupple-image-MDEwOlJlcG9zaXRvcnkyMTM1NDI4ODc="
+      src="https://avatars.githubusercontent.com/u/15612383?u=2de2d038453a1769caffc028a724dcfca29e891f&v=4"
+    />
+    anshulc55/Jenkins_Upgradev3
+  </p>
+</div>
+`;

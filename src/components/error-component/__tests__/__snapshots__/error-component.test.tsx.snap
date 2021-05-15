@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error component renders the component wihtout crashing 1`] = `
+<li
+  data-testid="error-0"
+>
+  Could not resolve to a Repository with the name 'und/react'.
+</li>
+`;
