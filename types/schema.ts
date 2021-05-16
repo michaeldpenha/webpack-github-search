@@ -20505,28 +20505,31 @@ export type GetSearchQueryVariables = Exact<{
 }>;
 
 export type GetSearchQuery = { __typename?: 'Query' } & {
-  search: { __typename?: 'SearchResultItemConnection' } & {
-    edges?: Maybe<
-      Array<
-        Maybe<
-          { __typename?: 'SearchResultItemEdge' } & {
-            node?: Maybe<
-              | { __typename?: 'App' }
-              | ({ __typename?: 'Issue' } & {
-                  repository: { __typename?: 'Repository' } & RepositoryFieldsFragment;
-                } & IssueFieldsFragment)
-              | { __typename?: 'MarketplaceListing' }
-              | { __typename?: 'Organization' }
-              | { __typename?: 'PullRequest' }
-              | ({ __typename?: 'Repository' } & RepositoryFieldsFragment)
-              | { __typename?: 'User' }
-            >;
-          }
+  search: { __typename?: 'SearchResultItemConnection' } & Pick<
+    SearchResultItemConnection,
+    'issueCount'
+  > & {
+      edges?: Maybe<
+        Array<
+          Maybe<
+            { __typename?: 'SearchResultItemEdge' } & {
+              node?: Maybe<
+                | { __typename?: 'App' }
+                | ({ __typename?: 'Issue' } & {
+                    repository: { __typename?: 'Repository' } & RepositoryFieldsFragment;
+                  } & IssueFieldsFragment)
+                | { __typename?: 'MarketplaceListing' }
+                | { __typename?: 'Organization' }
+                | { __typename?: 'PullRequest' }
+                | ({ __typename?: 'Repository' } & RepositoryFieldsFragment)
+                | { __typename?: 'User' }
+              >;
+            }
+          >
         >
-      >
-    >;
-    pageInfo: { __typename?: 'PageInfo' } & PageInfoFieldsFragment;
-  };
+      >;
+      pageInfo: { __typename?: 'PageInfo' } & PageInfoFieldsFragment;
+    };
 };
 
 export type GetIssueDetailsQueryVariables = Exact<{
@@ -20622,6 +20625,7 @@ export const GetSearchDocument = gql`
     $type: SearchType!
   ) {
     search(after: $after, before: $before, first: $first, last: $last, query: $query, type: $type) {
+      issueCount
       edges {
         node {
           ... on Issue {

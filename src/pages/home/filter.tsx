@@ -16,7 +16,7 @@ const Filter: React.FC = () => {
   const location: Location = useLocation();
   const [search, setSearch] = useState<string>('');
   const [repoList, setRepoList] = useState([]);
-  const [getSearch, { loading, data, error, fetchMore }] = useGetSearchLazyQuery({
+  const [getSearch, { loading, data, fetchMore }] = useGetSearchLazyQuery({
     notifyOnNetworkStatusChange: true,
   });
 
@@ -26,9 +26,9 @@ const Filter: React.FC = () => {
   };
 
   const params: URLSearchParams = new URLSearchParams(location.search);
-  const issueState: string = params.get('state');
-  const searchQuery: string = params.get('search');
-  const repo: string = params.get('repo');
+  const issueState: string | undefined = params.get('state');
+  const searchQuery: string | undefined = params.get('search');
+  const repo: string | undefined = params.get('repo');
 
   const onStatusChange = (data: IDropDownData): void => {
     const { value } = data;

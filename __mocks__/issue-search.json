@@ -1,0 +1,353 @@
+{
+    "data": {
+      "search": {
+        "issueCount": 193261,
+        "edges": [
+          {
+            "cursor": "Y3Vyc29yOjE=",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4OTIwMTUyNDI=",
+              "bodyHTML": "<p>DISCORD</p>",
+              "title": "re",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/58448036?v=4",
+                "login": "NeonGamerBot-QK"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-14T15:25:13Z",
+              "body": "DISCORD"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjI=",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4OTEzMDE2ODI=",
+              "bodyHTML": "<p>The overlay mechanism is fine but there's some restructuring I would like to do to it</p>\n<ol>\n<li>Lets move the overlay functions to SurgeGUIEditorOverlays.cpp - SGE getting too big</li>\n<li>Rewrite the patch save dialog in juce. That would let us use <code>juce::ComboBox</code> for category also which brings <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"615061755\" data-permission-text=\"Title is private\" data-url=\"https://github.com/surge-synthesizer/surge/issues/1840\" data-hovercard-type=\"issue\" data-hovercard-url=\"/surge-synthesizer/surge/issues/1840/hovercard\" href=\"https://github.com/surge-synthesizer/surge/issues/1840\">#1840</a> back from the dead (I think a save dialog outside the patch browser still makes perfect sense)</li>\n<li>Rework the open/close functions to be a bit more data driven. I worry that we don't actually need quite as much if-stuff in the open and recreate for instance. This will tie in tightly with the fix to <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"886728623\" data-permission-text=\"Title is private\" data-url=\"https://github.com/surge-synthesizer/surge/issues/4541\" data-hovercard-type=\"issue\" data-hovercard-url=\"/surge-synthesizer/surge/issues/4541/hovercard\" href=\"https://github.com/surge-synthesizer/surge/issues/4541\">#4541</a> so lets do them simultaneously</li>\n</ol>",
+              "title": "Re-Re-Structure some Overlays",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/13387561?v=4",
+                "login": "baconpaul"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-13T19:15:51Z",
+              "body": "The overlay mechanism is fine but there's some restructuring I would like to do to it\r\n\r\n1. Lets move the overlay functions to SurgeGUIEditorOverlays.cpp - SGE getting too big\r\n2. Rewrite the patch save dialog in juce. That would let us use `juce::ComboBox` for category also which brings #1840 back from the dead (I think a save dialog outside the patch browser still makes perfect sense)\r\n3. Rework the open/close functions to be a bit more data driven. I worry that we don't actually need quite as much if-stuff in the open and recreate for instance. This will tie in tightly with the fix to #4541 so lets do them simultaneously"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjM=",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4NzU3ODA4ODg=",
+              "bodyHTML": "",
+              "title": "Re",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/36386637?v=4",
+                "login": "builder12"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-04T19:50:07Z",
+              "body": ""
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjQ=",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4NzQ0MDkyMDA=",
+              "bodyHTML": "<p><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"874408776\" data-permission-text=\"Title is private\" data-url=\"https://github.com/YUDAI-HIZU/cloud-beat-client/issues/27\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/YUDAI-HIZU/cloud-beat-client/pull/27/hovercard\" href=\"https://github.com/YUDAI-HIZU/cloud-beat-client/pull/27\">#27</a></p>",
+              "title": "re",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/52273972?u=929bfcb2b7c3f3e59564296d562f8cbdf8e1a2fa&v=4",
+                "login": "YUDAI-HIZU"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-03T09:38:35Z",
+              "body": "https://github.com/YUDAI-HIZU/cloud-beat-client/pull/27"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjU=",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4ODkxNzkyNjM=",
+              "bodyHTML": "<p>regex: <code>(?m)(^|a)+</code></p>\n<p>haystack: <code>a\\naaa\\n</code></p>\n<p>iteration output: <code>(0, 0) (2, 2) (3, 5) (6, 6)</code></p>\n<p>but...</p>\n<p>regex: <code>(?m)(^|a)(^|a)*</code></p>\n<p>haystack: <code>a\\naaa\\n</code></p>\n<p>iteration output: <code>(0, 1) (2, 5) (6, 6)</code></p>\n<p>The actual problem here, we (myself, <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rsc/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rsc\">@rsc</a> and <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/junyer/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/junyer\">@junyer</a>) believe, is that <code>(^|a)*</code> (and more generally, <code>(|a)*</code>), is what's wrong here. In particular:</p>\n<p>regex: <code>(?m)(^|a)*</code></p>\n<p>haystack: <code>a\\naaa\\n</code></p>\n<p>iteration output: <code>(0, 1) (2, 5) (6, 6)</code></p>\n<p>But the output should actually be <code>(0, 0) (1, 1) (2, 2) (3, 5) (6, 6)</code>, and this matches precisely what PCRE2 outputs.</p>\n<p>This crate, RE2 and Go's <code>regexp</code> standard library package all have the same bug. <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rsc/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rsc\">@rsc</a> has already put up a patch for Go: <a rel=\"nofollow\" href=\"https://go-review.googlesource.com/c/go/+/318750\">https://go-review.googlesource.com/c/go/+/318750</a></p>\n<p>I hope to fix this as part of <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"586996204\" data-permission-text=\"Title is private\" data-url=\"https://github.com/rust-lang/regex/issues/656\" data-hovercard-type=\"issue\" data-hovercard-url=\"/rust-lang/regex/issues/656/hovercard\" href=\"https://github.com/rust-lang/regex/issues/656\">#656</a>, once the new NFA compiler lands. In particular, <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rsc/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rsc\">@rsc</a> points out an elegant fix for this: compile <code>x*</code> as <code>(x+)?</code>. One thing that isn't clear is whether it's wise to <em>actually</em> fix it or not, since it could break existing regexes. But I believe it's limited to fairly pathological cases (repetition of a sub-expression that can match the empty string preferentially). It might be worth just doing.</p>",
+              "title": "some regexes fail to satisfy that (re)+ is always equal to (re)(re)*",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/456674?v=4",
+                "login": "BurntSushi"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-11T23:48:06Z",
+              "body": "regex: `(?m)(^|a)+`\r\n\r\nhaystack: `a\\naaa\\n`\r\n\r\niteration output: `(0, 0) (2, 2) (3, 5) (6, 6)`\r\n\r\nbut...\r\n\r\nregex: `(?m)(^|a)(^|a)*`\r\n\r\nhaystack: `a\\naaa\\n`\r\n\r\niteration output: `(0, 1) (2, 5) (6, 6)`\r\n\r\nThe actual problem here, we (myself, @rsc and @junyer) believe, is that `(^|a)*` (and more generally, `(|a)*`), is what's wrong here. In particular:\r\n\r\n\r\nregex: `(?m)(^|a)*`\r\n\r\nhaystack: `a\\naaa\\n`\r\n\r\niteration output: `(0, 1) (2, 5) (6, 6)`\r\n\r\nBut the output should actually be `(0, 0) (1, 1) (2, 2) (3, 5) (6, 6)`, and this matches precisely what PCRE2 outputs.\r\n\r\nThis crate, RE2 and Go's `regexp` standard library package all have the same bug. @rsc has already put up a patch for Go: https://go-review.googlesource.com/c/go/+/318750\r\n\r\nI hope to fix this as part of #656, once the new NFA compiler lands. In particular, @rsc points out an elegant fix for this: compile `x*` as `(x+)?`. One thing that isn't clear is whether it's wise to _actually_ fix it or not, since it could break existing regexes. But I believe it's limited to fairly pathological cases (repetition of a sub-expression that can match the empty string preferentially). It might be worth just doing."
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjY=",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4OTA3NDcyNzQ=",
+              "bodyHTML": "<p>Re-write</p>\n<ul>\n<li>readme. add template and check for spelling</li>\n<li>spell check comments, update the format if need</li>\n<li>possibly rename files/ project name</li>\n</ul>",
+              "title": "Re-writes",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/29239971?u=c6d060bfc8bde246230d8ca20862853f8b9d80bc&v=4",
+                "login": "Sahand-J"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-13T06:11:48Z",
+              "body": "Re-write\r\n- readme. add template and check for spelling\r\n- spell check comments, update the format if need\r\n- possibly rename files/ project name "
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjc=",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4NjA4MTQ4NDQ=",
+              "bodyHTML": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/22556115/116011036-a170ad80-a5d7-11eb-9d20-cb38a64b7756.jpg\"><img src=\"https://user-images.githubusercontent.com/22556115/116011036-a170ad80-a5d7-11eb-9d20-cb38a64b7756.jpg\" alt=\"Flow (4)\" style=\"max-width:100%;\"></a></p>",
+              "title": "re",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/22556115?v=4",
+                "login": "Alwin-Lin"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-04-19T01:02:40Z",
+              "body": "![Flow (4)](https://user-images.githubusercontent.com/22556115/116011036-a170ad80-a5d7-11eb-9d20-cb38a64b7756.jpg)\r\n"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjg=",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4NzU4MDA3MDM=",
+              "bodyHTML": "<p>i write command /res auto and them write area size is not within your allowed limits</p>",
+              "title": "res auto",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/83205772?v=4",
+                "login": "dejwiix"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-04T20:18:26Z",
+              "body": "i write command /res auto and them write area size is not within your allowed limits"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjk=",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4NzcwMjA2MzY=",
+              "bodyHTML": "<p>User needs to be able to redo a recording</p>",
+              "title": "Re-record",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/55760707?v=4",
+                "login": "nedransfield"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-06T02:46:43Z",
+              "body": "User needs to be able to redo a recording"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjEw",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4NzQzMzI0NDQ=",
+              "bodyHTML": "<p>Hi thee, firstly this not a bug fix request, rather if possible a how to manual for someone that is just trying to get control of my never ending tabs.<br>\nI don't wish to try to code anything, I just wish to add some categories, and or rename some.</p>\n<p>If this is not too much work, I would be over the moon.</p>\n<p>Thank you very much,<br>\nFenderfubs</p>",
+              "title": "Re: tabby",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/30141285?v=4",
+                "login": "Fenderfubs"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-03T07:58:32Z",
+              "body": "Hi thee, firstly this not a bug fix request, rather if possible a how to manual for someone that is just trying to get control of my never ending tabs.\r\nI don't wish to try to code anything, I just wish to add some categories, and or rename some.\r\n\r\nIf this is not too much work, I would be over the moon.\r\n\r\nThank you very much,\r\nFenderfubs"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjEx",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4OTI0ODA4NjU=",
+              "bodyHTML": "<p>I cannot go into setup mode if I have already accessed it once and changed the config, this is when I already have the device setup on my network. Is there a way to get around this besides re flashing the device?</p>",
+              "title": "re-accessing setup mode",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/78576051?v=4",
+                "login": "jdohn15"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-15T15:56:27Z",
+              "body": "I cannot go into setup mode if I have already accessed it once and changed the config, this is when I already have the device setup on my network. Is there a way to get around this besides re flashing the device?"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjEy",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4OTE5NDE0ODc=",
+              "bodyHTML": "<p>Hi - would the Service standard (<a rel=\"nofollow\" href=\"https://www.gov.uk/service-manual/service-standard\">https://www.gov.uk/service-manual/service-standard</a>) be on here, or are these all data-specific standards?</p>\n<p>Feedback on 'Standards Catalogue' (<a rel=\"nofollow\" href=\"https://alphagov.github.io/data-standards-authority/data-standards-authority/standards-catalogue/standards/\">https://alphagov.github.io/data-standards-authority/data-standards-authority/standards-catalogue/standards/</a>)</p>",
+              "title": "Re: 'Standards Catalogue'",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/7557505?u=c29e7784847f60700f2f1c389204e198278c1c92&v=4",
+                "login": "benaldo1975"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-14T13:52:44Z",
+              "body": "Hi - would the Service standard (https://www.gov.uk/service-manual/service-standard) be on here, or are these all data-specific standards? \r\n\r\nFeedback on 'Standards Catalogue' (https://alphagov.github.io/data-standards-authority/data-standards-authority/standards-catalogue/standards/)"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjEz",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4NzAwNTY4ODI=",
+              "bodyHTML": "<p><a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Zrips/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Zrips\">@Zrips</a></p>\n<p>This option of the res auto was confusing</p>\n<p>I have a group of 100 x 100</p>\n<p>Even putting Min and Max of 80 and 100 in the configuration respectively, when creating a residence it says that it is outside the limits, and I am not able to configure correctly, any value that I put that is outside the limits, could have some kind of tutorial configure this part. and if possible, fast.</p>",
+              "title": "Res auto",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/78241761?v=4",
+                "login": "LtSam"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-04-28T15:10:20Z",
+              "body": "@Zrips \r\n\r\nThis option of the res auto was confusing\r\n\r\nI have a group of 100 x 100\r\n\r\nEven putting Min and Max of 80 and 100 in the configuration respectively, when creating a residence it says that it is outside the limits, and I am not able to configure correctly, any value that I put that is outside the limits, could have some kind of tutorial configure this part. and if possible, fast."
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjE0",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4NDgzNzk1NTI=",
+              "bodyHTML": "<p><div class=\"border rounded-1 my-2\">\n  <div class=\"f6 px-3 py-2 lh-condensed border-bottom color-bg-secondary\">\n    <p class=\"mb-0 text-bold\">\n      <a href=\"https://github.com/DianaBondarenko/NodeJSSoftserve/blob/7cade706ce138ab418604041b2df9918ea7e14b2/homework9/hw9.js#L9-L10\">NodeJSSoftserve/homework9/hw9.js</a>\n    </p>\n    <p class=\"mb-0 color-text-tertiary\">\n        Lines 9 to 10\n      in\n      <a data-pjax=\"true\" class=\"commit-tease-sha\" href=\"/DianaBondarenko/NodeJSSoftserve/commit/7cade706ce138ab418604041b2df9918ea7e14b2\">7cade70</a>\n    </p>\n    </div>\n    <div itemprop=\"text\" class=\"blob-wrapper blob-wrapper-embedded data\">\n    <table class=\"highlight tab-size mb-0 js-file-line-container\" data-tab-size=\"8\" data-paste-markdown-skip=\"\">\n\n        <tbody><tr class=\"border-0\">\n          <td id=\"L9\" class=\"blob-num border-0 px-3 py-0 color-bg-primary js-line-number\" data-line-number=\"9\"></td>\n          <td id=\"LC9\" class=\"blob-code border-0 px-3 py-0 color-bg-primary blob-code-inner js-file-line\"> <span class=\"pl-s1\">copyArr</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">[</span>...<span class=\"pl-s1\">res</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">;</span> </td>\n        </tr>\n\n        <tr class=\"border-0\">\n          <td id=\"L10\" class=\"blob-num border-0 px-3 py-0 color-bg-primary js-line-number\" data-line-number=\"10\"></td>\n          <td id=\"LC10\" class=\"blob-code border-0 px-3 py-0 color-bg-primary blob-code-inner js-file-line\"> <span class=\"pl-s1\">res</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">length</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">0</span><span class=\"pl-kos\">;</span> </td>\n        </tr>\n    </tbody></table>\n  </div>\n</div>\n</p>\n<div class=\"highlight highlight-source-js\"><pre><span class=\"pl-kos\">[</span><span class=\"pl-s1\">copyArr</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">res</span><span class=\"pl-kos\">]</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">[</span><span class=\"pl-s1\">res</span><span class=\"pl-kos\">,</span> <span class=\"pl-kos\">[</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">;</span></pre></div>",
+              "title": "[copyArr, res] = [res, []];",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/9075641?u=55375f3ff6eb4d590311d8cf9508c469cbf0a9a8&v=4",
+                "login": "so2niko"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-04-01T11:26:16Z",
+              "body": "https://github.com/DianaBondarenko/NodeJSSoftserve/blob/7cade706ce138ab418604041b2df9918ea7e14b2/homework9/hw9.js#L9-L10\r\n\r\n```javascript\r\n[copyArr, res] = [res, []];\r\n\r\n```"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjE1",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4OTI1Mzk2Njc=",
+              "bodyHTML": "",
+              "title": "presentation/styling/re-wording",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/77810809?u=6854924801eb90e6f90271137cd81c065b5d7503&v=4",
+                "login": "cmcunningham27"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-15T21:06:51Z",
+              "body": ""
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjE2",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4ODkxMDgwODE=",
+              "bodyHTML": "<p>AsciiDoclet is awesome, but we had to disable it (see Issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"481418358\" data-permission-text=\"Title is private\" data-url=\"https://github.com/ConsensusJ/consensusj/issues/55\" data-hovercard-type=\"issue\" data-hovercard-url=\"/ConsensusJ/consensusj/issues/55/hovercard\" href=\"https://github.com/ConsensusJ/consensusj/issues/55\">#55</a>) to enable building with JDK 11 and later.</p>\n<p>This is an enhancement request and reminder to possibly re-enable it later.</p>",
+              "title": "Re-enable AsciiDoclet?",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/61612?u=6066bb837ba38dc8c5424f547eaaed28557f78cd&v=4",
+                "login": "msgilligan"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-11T23:25:41Z",
+              "body": "AsciiDoclet is awesome, but we had to disable it (see Issue #55) to enable building with JDK 11 and later.\r\n\r\nThis is an enhancement request and reminder to possibly re-enable it later.\r\n"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjE3",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4OTEzMjM5NzE=",
+              "bodyHTML": "",
+              "title": "Re-structure sidebar elements",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/51149817?u=5aa62e8b759001f7b981583f0639f46772d0ed15&v=4",
+                "login": "AngeloCG97"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-13T19:51:40Z",
+              "body": ""
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjE4",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4OTI2NTgzMDE=",
+              "bodyHTML": "<p>Should the app be re-implemented in C++?</p>\n<p>Pros:</p>\n<ul>\n<li>Better performance,</li>\n<li>Support for additional features such as mouse events (courtesy of ncurses)</li>\n<li>It would work on more shells</li>\n</ul>\n<p>Cons:</p>\n<ul>\n<li>A lot of work</li>\n</ul>",
+              "title": "C++ re-implementation",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/22472584?u=faaf0a3d6fc2f961dd9b3b768ec544919e3e5fd7&v=4",
+                "login": "Solaire"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-16T12:12:16Z",
+              "body": "Should the app be re-implemented in C++?\r\n\r\nPros:\r\n- Better performance,\r\n- Support for additional features such as mouse events (courtesy of ncurses)\r\n- It would work on more shells\r\n\r\nCons:\r\n- A lot of work"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjE5",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4OTI1NTAyMzY=",
+              "bodyHTML": "<p>add old cursor system to help position for more advanced features</p>",
+              "title": "re-implement cursor system",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/45982913?u=e4b9ef13cd94f2ca709fcdd24193e55ea657750b&v=4",
+                "login": "Carson-DeSotel"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-15T22:17:15Z",
+              "body": "add old cursor system to help position for more advanced features"
+            }
+          },
+          {
+            "cursor": "Y3Vyc29yOjIw",
+            "node": {
+              "__typename": "Issue",
+              "id": "MDU6SXNzdWU4OTIyNTQ3NzY=",
+              "bodyHTML": "",
+              "title": "Re-add list command",
+              "author": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/18099825?u=5f32c03a577bfe560a43446cb2113105e6b5246c&v=4",
+                "login": "KarlOfDuty"
+              },
+              "closed": false,
+              "closedAt": null,
+              "createdAt": "2021-05-14T21:26:26Z",
+              "body": ""
+            }
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "Y3Vyc29yOjIw",
+          "hasNextPage": true
+        }
+      }
+    }
+  }

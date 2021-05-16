@@ -6,19 +6,21 @@ export const IssueTuppleContainer = styled.div`
   cursor: pointer;
   margin-top: ${getStylesSize(10)};
   border: 1px solid ${(props) => props.theme.colors.border};
+
   & header {
-    padding: ${getStylesSize(5)};
+    padding: 0 ${getStylesSize(5)};
     ${fontWeightSemiBold}
     ${mixinLineClamp(2)}
     font-size: ${getStylesSize(10)};
-    border-bottom: 1px solid ${(props) => props.theme.colors.border};
     background-color: ${(props) => props.theme.colors.titleBackground};
+    line-height: ${getStylesSize(20)};
   }
+
   & article {
-    padding: ${getStylesSize(5)};
-    padding-bottom: 0;
+    padding: ${getStylesSize(5)} ${getStylesSize(5)} 0;
     ${mixinLineClamp(3)}
     font-size: ${getStylesSize(9)};
+    border-top: 1px solid ${(props) => props.theme.colors.border};
   }
 
   & footer {

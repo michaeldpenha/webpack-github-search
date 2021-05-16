@@ -1,0 +1,328 @@
+{
+    "data": {
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+        "name": "react",
+        "issue": {
+          "author": {
+            "login": "dharapx",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/58872746?u=e6e5dea6186bf084ff334460ae8f3d90110408ff&v=4"
+          },
+          "bodyHTML": "\n<h3>Which website or app were you using when the bug happened?</h3>\n<p>Please provide a link to the URL of the website (if it is public), a CodeSandbox (<a rel=\"nofollow\" href=\"https://codesandbox.io/s/new\">https://codesandbox.io/s/new</a>) example that reproduces the bug, or a project on GitHub that we can checkout and run locally.</p>\n<h3>What were you doing on the website or app when the bug happened?</h3>\n<p>If possible, please describe how to reproduce this bug on the website or app mentioned above:</p>\n<ol>\n<li>\n\n</li>\n<li>\n\n</li>\n<li>\n\n</li>\n</ol>\n\n\n\n<h3>Generated information</h3>\n<p>DevTools version: 4.13.1-93782cfed2</p>\n<p>Call stack:<br>\n(none)</p>\n<p>Component stack:<br>\n(none)</p>\n<p>GitHub URL search query:<br>\n<a rel=\"nofollow\" href=\"https://api.github.com/search/issues?q=Cannot%20add%20node%20%20because%20a%20node%20with%20that%20id%20is%20already%20in%20the%20Store.%20in%3Atitle%20is%3Aissue%20is%3Aopen%20is%3Apublic%20label%3A%22Component%3A%20Developer%20Tools%22%20repo%3Afacebook%2Freact\">https://api.github.com/search/issues?q=Cannot%20add%20node%20%20because%20a%20node%20with%20that%20id%20is%20already%20in%20the%20Store.%20in%3Atitle%20is%3Aissue%20is%3Aopen%20is%3Apublic%20label%3A%22Component%3A%20Developer%20Tools%22%20repo%3Afacebook%2Freact</a></p>",
+          "createdAt": "2021-05-05T17:58:25Z",
+          "closed": false,
+          "closedAt": null,
+          "id": "MDU6SXNzdWU4NzY3MDI4NTg=",
+          "comments": {
+            "totalCount": 25,
+            "edges": [
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzMjg5MzkxOQ==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-05T17:59:09Z",
+                  "bodyHTML": "<p><a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dharapx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dharapx\">@dharapx</a> Sorry you hit this problem</p>\n<p>Unfortunately though, it doesn't look like this bug report has enough info for one of us to reproduce it.</p>\n<p>Please provide a CodeSandbox (<a rel=\"nofollow\" href=\"https://codesandbox.io/s/new\">https://codesandbox.io/s/new</a>), a link to a repository on GitHub, or provide a minimal code example that reproduces the problem. Screenshots or videos can also be helpful if they help provide context on how to repro the bug.</p>\n<p>Here are some tips for providing a minimal example: <a rel=\"nofollow\" href=\"https://stackoverflow.com/help/mcve\">https://stackoverflow.com/help/mcve</a></p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzMzUzNzgyOQ==",
+                  "author": {
+                    "login": "ZackeryBayle",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/8448004?v=4"
+                  },
+                  "createdAt": "2021-05-06T13:48:29Z",
+                  "bodyHTML": "<p>Project: <a href=\"https://github.com/ZackeryBayle/TrollyReactJS\">https://github.com/ZackeryBayle/TrollyReactJS</a><br>\nBack end: <a href=\"https://github.com/ZackeryBayle/TrollyCRM\">https://github.com/ZackeryBayle/TrollyCRM</a></p>\n<p>While working on the project doing some code splitting.</p>\n<p><code> Update existing issue: Error: \"Cannot add node \"1\" because a node with that id is already in the Store.\" Uncaught Error: Cannot add node \"1\" because a node with that id is already in the Store.</code><br>\nI am pretty new so please forgive the crazy mess you are about to witness.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzMzUzOTQ1Ng==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-06T13:50:15Z",
+                  "bodyHTML": "<p>Hey <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ZackeryBayle/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ZackeryBayle\">@ZackeryBayle</a>! This is a great help.</p>\n<blockquote>\n<p>While working on the project doing some code splitting.</p>\n</blockquote>\n<p>Can you elaborate a little more on what I'd need to do to reproduce the error myself beyond running these two projects locally?</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzMzU0NDg5MA==",
+                  "author": {
+                    "login": "ZackeryBayle",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/8448004?v=4"
+                  },
+                  "createdAt": "2021-05-06T13:57:23Z",
+                  "bodyHTML": "<p><a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/bvaughn/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/bvaughn\">@bvaughn</a> - I was working on just rendering some props on the home screen after splitting my form code into its own component.<br>\nOn render throws error<br>\nPage still renders</p>\n<p>I hope that helps, let me know if there is anything else I can provide.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzMzYzMzk2Nw==",
+                  "author": {
+                    "login": "ZackeryBayle",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/8448004?v=4"
+                  },
+                  "createdAt": "2021-05-06T15:53:16Z",
+                  "bodyHTML": "<p>I have simply removed everything from the rendering page (home.js) and the error still happens. The only thing being rendered is my navBar and footer. Nothing has changed on these components for weeks. I haven't done any updates to dependence.</p>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/8448004/117327908-f61def00-ae47-11eb-91e1-6e67aa064a5d.png\"><img src=\"https://user-images.githubusercontent.com/8448004/117327908-f61def00-ae47-11eb-91e1-6e67aa064a5d.png\" alt=\"image\" style=\"max-width:100%;\"></a></p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzMzYzNjAxNQ==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-06T15:56:00Z",
+                  "bodyHTML": "<p>Oh that's excellent. Can you push a branch and point me at it so I can check it out and repro?</p>\n<p>I got stuck having to install mongodb this morning to run the backend and then I had meetings.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzMzY0ODI4Ng==",
+                  "author": {
+                    "login": "ZackeryBayle",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/8448004?v=4"
+                  },
+                  "createdAt": "2021-05-06T16:10:52Z",
+                  "bodyHTML": "<p>Here is the new branch  <code>https://github.com/ZackeryBayle/TrollyReactJS/tree/staging-issues</code></p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzMzY3Mjc3Mg==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-06T16:38:01Z",
+                  "bodyHTML": "<p>Thanks!</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzMzg0MzA0NQ==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-06T20:36:09Z",
+                  "bodyHTML": "<p><a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ZackeryBayle/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ZackeryBayle\">@ZackeryBayle</a> So you just load the page and see the error?</p>\n<p>I can't repro that. (Now that Mongo is installed.)</p>\n<p>Do you have any component filters or anything on in your devtools by chance? Would I need any dummy data in my mongodb to repro this maybe?</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzMzg5MjAwMQ==",
+                  "author": {
+                    "login": "ZackeryBayle",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/8448004?v=4"
+                  },
+                  "createdAt": "2021-05-06T21:49:50Z",
+                  "bodyHTML": "<p>correct Just loading the page produces that error. Nothing about the mongo should any effect on this atm because all the components have been removed from the  pages/home.js</p>\n<p>I don't know what a component filter is sorry I'm really new at this. This is actually my capstone project for bootcamp.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzMzg5MzM0OQ==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-06T21:51:53Z",
+                  "bodyHTML": "<p>Ah ok that's interesting. I wonder why I'm not able to reproduce the bug using the same branch/app.</p>\n<p>Any chance you'd be up for a quick Zoom call tomorrow to look at it together? No problem if you're not, but if you are– shoot me an email (brian.david.vaughn at gmail) or a DM on twitter (@ brian_d_vaughn)</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzNDQxMjQxNA==",
+                  "author": {
+                    "login": "ZackeryBayle",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/8448004?v=4"
+                  },
+                  "createdAt": "2021-05-07T13:49:15Z",
+                  "bodyHTML": "<p>Update:  I have restarted my development server this morning and now am not getting the error. I will load in components one at a time to see if any of them will recreate this error and report back when down.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzNDQxMzQ1Mg==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-07T13:50:13Z",
+                  "bodyHTML": "<p>Thank you for the update, <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ZackeryBayle/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ZackeryBayle\">@ZackeryBayle</a></p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzNDQyMTA2Mg==",
+                  "author": {
+                    "login": "ZackeryBayle",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/8448004?v=4"
+                  },
+                  "createdAt": "2021-05-07T13:57:18Z",
+                  "bodyHTML": "<p>Okay all components are loaded back in and rendering... no more error. I'm at a loss on this one.</p>\n<p>Only thing I can say is I was trying to figure out how to raise state so I could update a a parent state from a child when this happened. Let me know if there is anything else I can do to provide any more info or help.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzNDQyMzEwNw==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-07T13:59:14Z",
+                  "bodyHTML": "<p>Aw, rats. If you're able to repro again, let me know. Unfortunately, I don't think there's much I can do until I get a repro case.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzNDUyMDk0Ng==",
+                  "author": {
+                    "login": "yrambler2001",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/8398353?u=f1f81a0994d6f37ef6811c64718080bef77ec26f&v=4"
+                  },
+                  "createdAt": "2021-05-07T15:25:44Z",
+                  "bodyHTML": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/8398353/117472414-88fe7c80-af61-11eb-9848-61a594ee1ff1.png\"><img src=\"https://user-images.githubusercontent.com/8398353/117472414-88fe7c80-af61-11eb-9848-61a594ee1ff1.png\" alt=\"image\" style=\"max-width:100%;\"></a><br>\nhappens randomly for me too</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzNDUzOTQ3Mw==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-07T15:35:48Z",
+                  "bodyHTML": "<p><a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yrambler2001/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yrambler2001\">@yrambler2001</a> Need a repro case. Can you share one?</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzNTE1NDMyNw==",
+                  "author": {
+                    "login": "yrambler2001",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/8398353?u=f1f81a0994d6f37ef6811c64718080bef77ec26f&v=4"
+                  },
+                  "createdAt": "2021-05-08T06:54:45Z",
+                  "bodyHTML": "<p><a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/bvaughn/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/bvaughn\">@bvaughn</a> Unfortunately, it happens too randomly for me, page refresh with dev tools refresh fixes this for me.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzNTM4MzI3NQ==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-08T14:25:05Z",
+                  "bodyHTML": "<p>Understood. If you're able to narrow it down, even to something that happens once and a while, repro steps would be helpful.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzNTQwNjA3NQ==",
+                  "author": {
+                    "login": "eps1lon",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/12292047?u=b680d2aedb93269d597e78306e6e136c8ebaf328&v=4"
+                  },
+                  "createdAt": "2021-05-08T15:40:15Z",
+                  "bodyHTML": "<p>Repro: <a href=\"https://github.com/eps1lon/react-devtools-repro-no-matching-node/tree/main\">https://github.com/eps1lon/react-devtools-repro-no-matching-node/tree/main</a><br>\nReact devtools version: 4.13.2 (<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/facebook/react/commit/e468072e17e3c2e70fa6eca46a074ff3f948c38a/hovercard\" href=\"https://github.com/facebook/react/commit/e468072e17e3c2e70fa6eca46a074ff3f948c38a\"><tt>e468072</tt></a>)<br>\nSteps included in repro.</p>\n<details open=\"\" class=\"details-reset border rounded-2\">\n  <summary class=\"px-3 py-2 border-bottom\">\n    <svg class=\"octicon octicon-device-camera-video\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M16 3.75a.75.75 0 00-1.136-.643L11 5.425V4.75A1.75 1.75 0 009.25 3h-7.5A1.75 1.75 0 000 4.75v6.5C0 12.216.784 13 1.75 13h7.5A1.75 1.75 0 0011 11.25v-.675l3.864 2.318A.75.75 0 0016 12.25v-8.5zm-5 5.075l3.5 2.1v-5.85l-3.5 2.1v1.65zM9.5 6.75v-2a.25.25 0 00-.25-.25h-7.5a.25.25 0 00-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-4.5z\"></path></svg>\n    <span aria-label=\"Video description react-devtools-repro-no-matching-node.mp4\" class=\"m-1\">react-devtools-repro-no-matching-node.mp4</span>\n    <span class=\"dropdown-caret\"></span>\n  </summary>\n\n  <video src=\"https://user-images.githubusercontent.com/12292047/117544707-e6a6cd80-b022-11eb-9f8f-bb8cfd9f7743.mp4\" data-canonical-src=\"https://user-images.githubusercontent.com/12292047/117544707-e6a6cd80-b022-11eb-9f8f-bb8cfd9f7743.mp4\" controls=\"controls\" muted=\"muted\" class=\"d-block rounded-bottom-2 width-fit\" style=\"max-height:640px;\">\n\n  </video>\n</details>\n"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDgzNTgwNDI4Ng==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-09T13:05:20Z",
+                  "bodyHTML": "<p>Thanks for the repro, <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/eps1lon/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/eps1lon\">@eps1lon</a>!</p>\n<hr>\n<p>What seems to be happening is that Refresh sets a <code>_debugNeedsRemount</code> flag, which clones the old Fiber and splices it into the tree in-place. (This breaks some assumptions on the DevTools side FWIW.)</p>\n<p>Then simultaneously, the component logs a warning during render, which the backend sees– but when it tries to find the Fiber in its internal map, it sees that it's a new one and creates a new ID for it.</p>\n<p>Then during the subsequent render, it tries to unmount the old Fiber, but with the new ID.</p>\n<p>I'm not sure yet exactly what the right way to fix this is. Errors or warnings logged during initial render that belong to untracked (or not-yet-tracked) Fibers are important. (Most warnings probably happen during initial render.) Need to give this some more thought.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDg0MDA4NTk0Mg==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-12T20:46:56Z",
+                  "bodyHTML": "<p>I think I've captured the bug in a unit test:<br>\n<a href=\"https://github.com/bvaughn/react/blob/d49ba6b598522e4a5c0d93e215d7e3c7c51fef2c/packages/react-devtools-shared/src/__tests__/FastRefreshDevToolsIntegration-test.js#L164-L254\">https://github.com/bvaughn/react/blob/d49ba6b598522e4a5c0d93e215d7e3c7c51fef2c/packages/react-devtools-shared/src/__tests__/FastRefreshDevToolsIntegration-test.js#L164-L254</a></p>\n<p>If I remove the render-phase <code>console.warn</code> the test will pass.</p>\n<p>The overall pattern of the failed test is:</p>\n<h3>Mount</h3>\n<ol>\n<li>A warning is logged for Component (id:1)</li>\n<li>recordMount() for Component (id:1)</li>\n</ol>\n<h3>Patch 1</h3>\n<ol>\n<li>A warning is logged for Component (now id:4 because it was cloned by Fast Refresh)</li>\n<li>updateFiberRecursively() for Component (id:4)</li>\n</ol>\n<h3>Patch 2</h3>\n<ol>\n<li>A warning is logged for Component (now id:7 because it was cloned by Fast Refresh)</li>\n<li>recordUnmount() for Component (id:4) -&gt; <strong>This throws!</strong></li>\n<li>recordMount() for Component (id:7)</li>\n<li>recordResetChildren() for Component (id:7) 3:null (2)</li>\n</ol>\n<p>Unfortunately the unmount for id 4 causes the Store to throw, because the component was mounted with an id of 1.</p>\n<p><strong>Edit</strong> This is a bit embarrassing, but I think the test above only catches the bug if <code>__DEBUG__</code> is enabled <em>because</em> logging the Fiber (when the warning/error is caught) causes a new ID to be generated for it. The bug still happens in a CRA app with Refresh enabled, but I'm having trouble reproducing it in a test case. That said, I <em>can</em> see that we're leaking fibers (even though the test doesn't throw).</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDg0MDE3MDM1Nw==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-12T23:36:16Z",
+                  "bodyHTML": "<p>I'm not sure of the best way to handle this. DevTools can read the <code>_debugNeedsRemount</code> field during unmount to detect what's happened, but at this point– how does it get from id 4 back to id 1? I think I'd have to add a lot of metadata tracking to be able to map from type-to-id.</p>\n<p>I think the best approach might be to add a hook to React to inform DevTools of when a forced clone+remount has happened.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDg0MDc5OTg1OA==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-13T20:02:11Z",
+                  "bodyHTML": "<p>This test captures the bug:</p>\n<div class=\"highlight highlight-source-js position-relative\"><pre><span class=\"pl-en\">withErrorsOrWarningsIgnored</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">[</span><span class=\"pl-s\">\"Expected warning during render\"</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">,</span> <span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">=&gt;</span> <span class=\"pl-kos\">{</span>\n  <span class=\"pl-en\">render</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">`</span>\n<span class=\"pl-s\">      const {useState} = React;</span>\n<span class=\"pl-s\"></span>\n<span class=\"pl-s\">      export default function Component() {</span>\n<span class=\"pl-s\">        const [state, setState] = useState(1);</span>\n<span class=\"pl-s\"></span>\n<span class=\"pl-s\">        console.warn(\"Expected warning during render\");</span>\n<span class=\"pl-s\"></span>\n<span class=\"pl-s\">        return &lt;div /&gt;;</span>\n<span class=\"pl-s\">      }</span>\n<span class=\"pl-s\">    `</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n<span class=\"pl-kos\">}</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n<span class=\"pl-en\">expect</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">store</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">toMatchInlineSnapshot</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">`</span>\n<span class=\"pl-s\">      ✕ 0, ⚠ 1</span>\n<span class=\"pl-s\">      [root]</span>\n<span class=\"pl-s\">          &lt;Component&gt; ⚠</span>\n<span class=\"pl-s\">    `</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-k\">let</span> <span class=\"pl-s1\">element</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">container</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">firstChild</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-en\">withErrorsOrWarningsIgnored</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">[</span><span class=\"pl-s\">\"Expected warning during render\"</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">,</span> <span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">=&gt;</span> <span class=\"pl-kos\">{</span>\n  <span class=\"pl-en\">patch</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">`</span>\n<span class=\"pl-s\">      const {useState} = React;</span>\n<span class=\"pl-s\"></span>\n<span class=\"pl-s\">      export default function Component() {</span>\n<span class=\"pl-s\">        const [state, setState] = useState(1);</span>\n<span class=\"pl-s\"></span>\n<span class=\"pl-s\">        console.warn(\"Expected warning during render\");</span>\n<span class=\"pl-s\"></span>\n<span class=\"pl-s\">        return &lt;div id=\"one\" /&gt;;</span>\n<span class=\"pl-s\">      }</span>\n<span class=\"pl-s\">    `</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n<span class=\"pl-kos\">}</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n<span class=\"pl-en\">expect</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">store</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">toMatchInlineSnapshot</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">`</span>\n<span class=\"pl-s\">      ✕ 0, ⚠ 2</span>\n<span class=\"pl-s\">      [root]</span>\n<span class=\"pl-s\">          &lt;Component&gt; ⚠</span>\n<span class=\"pl-s\">    `</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-c\">// State is preserved; this verifies that Fast Refresh is wired up.</span>\n<span class=\"pl-en\">expect</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">container</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">firstChild</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">toBe</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">element</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n<span class=\"pl-s1\">element</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">container</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">firstChild</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-en\">withErrorsOrWarningsIgnored</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">[</span><span class=\"pl-s\">\"Expected warning during render\"</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">,</span> <span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">=&gt;</span> <span class=\"pl-kos\">{</span>\n  <span class=\"pl-en\">patch</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">`</span>\n<span class=\"pl-s\">      const {useEffect, useState} = React;</span>\n<span class=\"pl-s\"></span>\n<span class=\"pl-s\">      export default function Component() {</span>\n<span class=\"pl-s\">        const [state, setState] = useState(3);</span>\n<span class=\"pl-s\">        useEffect(() =&gt; {});</span>\n<span class=\"pl-s\"></span>\n<span class=\"pl-s\">        console.warn(\"Expected warning during render\");</span>\n<span class=\"pl-s\"></span>\n<span class=\"pl-s\">        return &lt;div id=\"one\" /&gt;;</span>\n<span class=\"pl-s\">      }</span>\n<span class=\"pl-s\">    `</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n<span class=\"pl-kos\">}</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n<span class=\"pl-en\">expect</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">store</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">toMatchInlineSnapshot</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">`</span>\n<span class=\"pl-s\">      ✕ 0, ⚠ 3</span>\n<span class=\"pl-s\">      [root]</span>\n<span class=\"pl-s\">          &lt;Component&gt; ⚠</span>\n<span class=\"pl-s\">          &lt;Component&gt; ⚠</span>\n<span class=\"pl-s\">    `</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span></pre><div class=\"zeroclipboard-container position-absolute right-0 top-0\">\n  <clipboard-copy value=\"withErrorsOrWarningsIgnored([&quot;Expected warning during render&quot;], () =&gt; {\n  render(`\n      const {useState} = React;\n\n      export default function Component() {\n        const [state, setState] = useState(1);\n\n        console.warn(&quot;Expected warning during render&quot;);\n\n        return &lt;div /&gt;;\n      }\n    `);\n});\nexpect(store).toMatchInlineSnapshot(`\n      ✕ 0, ⚠ 1\n      [root]\n          &lt;Component&gt; ⚠\n    `);\n\nlet element = container.firstChild;\n\nwithErrorsOrWarningsIgnored([&quot;Expected warning during render&quot;], () =&gt; {\n  patch(`\n      const {useState} = React;\n\n      export default function Component() {\n        const [state, setState] = useState(1);\n\n        console.warn(&quot;Expected warning during render&quot;);\n\n        return &lt;div id=&quot;one&quot; /&gt;;\n      }\n    `);\n});\nexpect(store).toMatchInlineSnapshot(`\n      ✕ 0, ⚠ 2\n      [root]\n          &lt;Component&gt; ⚠\n    `);\n\n// State is preserved; this verifies that Fast Refresh is wired up.\nexpect(container.firstChild).toBe(element);\nelement = container.firstChild;\n\nwithErrorsOrWarningsIgnored([&quot;Expected warning during render&quot;], () =&gt; {\n  patch(`\n      const {useEffect, useState} = React;\n\n      export default function Component() {\n        const [state, setState] = useState(3);\n        useEffect(() =&gt; {});\n\n        console.warn(&quot;Expected warning during render&quot;);\n\n        return &lt;div id=&quot;one&quot; /&gt;;\n      }\n    `);\n});\nexpect(store).toMatchInlineSnapshot(`\n      ✕ 0, ⚠ 3\n      [root]\n          &lt;Component&gt; ⚠\n          &lt;Component&gt; ⚠\n    `);\n\" aria-label=\"Copy\" class=\"ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay\" data-copy-feedback=\"Copied!\" data-tooltip-direction=\"w\">\n    <svg aria-hidden=\"true\" viewBox=\"0 0 16 16\" version=\"1.1\" height=\"16\" width=\"16\" class=\"octicon octicon-clippy js-clipboard-clippy-icon d-block m-2\">\n    <path fill-rule=\"evenodd\" d=\"M5.75 1a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75v-3a.75.75 0 00-.75-.75h-4.5zm.75 3V2.5h3V4h-3zm-2.874-.467a.75.75 0 00-.752-1.298A1.75 1.75 0 002 3.75v9.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-9.5a1.75 1.75 0 00-.874-1.515.75.75 0 10-.752 1.298.25.25 0 01.126.217v9.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-9.5a.25.25 0 01.126-.217z\"></path>\n</svg>\n    <svg aria-hidden=\"true\" viewBox=\"0 0 16 16\" version=\"1.1\" height=\"16\" width=\"16\" class=\"octicon octicon-check js-clipboard-check-icon color-text-success d-block d-sm-none m-2\">\n    <path fill-rule=\"evenodd\" d=\"M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z\"></path>\n</svg>\n  </clipboard-copy>\n</div>\n</div>\n<p>In the third snapshot, there should not be a duplicate <code>&lt;Component&gt;</code>.</p>"
+                }
+              },
+              {
+                "node": {
+                  "__typename": "IssueComment",
+                  "id": "MDEyOklzc3VlQ29tbWVudDg0MDgyODg5NQ==",
+                  "author": {
+                    "login": "bvaughn",
+                    "avatarUrl": "https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                  },
+                  "createdAt": "2021-05-13T20:55:41Z",
+                  "bodyHTML": "<p>I <em>think</em> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"891367196\" data-permission-text=\"Title is private\" data-url=\"https://github.com/facebook/react/issues/21506\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/facebook/react/pull/21506/hovercard\" href=\"https://github.com/facebook/react/pull/21506\">#21506</a> might be one way to fix this issue.</p>"
+                }
+              }
+            ],
+            "pageInfo": {
+              "endCursor": "Y3Vyc29yOnYyOpHOMh4H3w==",
+              "hasNextPage": false
+            }
+          }
+        }
+      }
+    }
+  }

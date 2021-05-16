@@ -5,4 +5,4 @@ import parse from 'html-react-parser';
  * @param val
  * @returns {element | string}
  */
-export const parseHTML = (val: string): string | JSX.Element | JSX.Element[] => parse(val);
+export const parseHTML = (val: string): string | JSX.Element | JSX.Element[] => parse(val || '');

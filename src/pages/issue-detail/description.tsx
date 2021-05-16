@@ -26,7 +26,7 @@ const Description: React.FC<IDecsciption> = (props) => {
       <IssueTitle>{title}</IssueTitle>
       <IssueTags>
         <IssueStatus state={closed}>{issueState}</IssueStatus>
-        <IssueDate>{`Created by ${author.login} ${formatDistance(date)}. ${
+        <IssueDate>{`Created by ${author?.login} ${formatDistance(date)}. ${
           comments.totalCount
         } comments`}</IssueDate>
       </IssueTags>

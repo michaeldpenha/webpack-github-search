@@ -20,8 +20,8 @@ export const prepareSearchQuery = (params: URLSearchParams): string => {
     queryParams['repo'] = params.get('repo');
   }
 
-  const result = Object.keys(queryParams).reduce((prev: string, key: string) => {
-    return `${prev} ${key}:${queryParams[key]}`;
-  }, '');
-  return result;
+  return Object.keys(queryParams).reduce(
+    (prev: string, key: string) => `${prev} ${key}:${queryParams[key]}`,
+    '',
+  );
 };

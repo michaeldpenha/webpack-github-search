@@ -1,5 +1,5 @@
 import React from 'react';
-import { IData, ITupple } from 'src/interface';
+import { ITupple } from 'src/interface';
 import { IssueTuppleContainer } from './styles';
 import { formatDistance } from 'utils/date';
 import { formatMessageText } from 'utils/messages';

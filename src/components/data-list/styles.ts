@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { getStylesSize } from 'utils/styles';
 import { fontWeightRegular } from 'src/styles/mixins';
 
-export const ButtonBlock = styled.div`
+export const ButtonBlock = styled.footer`
   display: flex;
   justify-content: center;
   & button {

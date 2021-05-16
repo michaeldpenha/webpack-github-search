@@ -9,14 +9,14 @@ import { IData } from 'src/interface';
 import { prepareSearchQuery } from 'utils/query';
 import { ListContainer } from './styles';
 import ErrorComponent from 'components/error-component';
-import { formatMessageText } from 'utils/messages';
+import { formatMessageText, issueCountText } from 'utils/messages';
 
 const List: React.FC = () => {
   const [getSearch, { loading, data, error, fetchMore }] = useGetSearchLazyQuery({
     notifyOnNetworkStatusChange: true,
   });
   const [lists, setList] = useState([]);
-  const [fetchVariables, setVariables] = useState({});
+  const [fetchPreviousVariables, setVariables] = useState({});
   const history: History = useHistory();
   const location: Location = useLocation();
   const params: URLSearchParams = new URLSearchParams(location.search);
@@ -51,7 +51,7 @@ const List: React.FC = () => {
   };
 
   useEffect((): void => {
-    if (!_.isEqual(queryVariables, fetchVariables)) {
+    if (!_.isEqual(queryVariables, fetchPreviousVariables)) {
       getSearch({
         variables: queryVariables,
       });
@@ -73,6 +73,7 @@ const List: React.FC = () => {
 
   return (
     <ListContainer>
+      {!loading && <strong>{issueCountText(params, data?.search?.['issueCount'] || 0)}</strong>}
       <DataList
         data={lists}
         loadMore={loadMore}
@@ -80,7 +81,7 @@ const List: React.FC = () => {
         onItemClick={onClick}
         showLoadMore={data?.search?.pageInfo?.hasNextPage}
         type="issue"
-        loaderType={'content'}
+        loaderType="content"
         noDataFoundText={formatMessageText('noIssueFound')}
       />
     </ListContainer>

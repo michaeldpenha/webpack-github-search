@@ -1,6 +1,7 @@
 import DataList from 'components/data-list';
 import ErrorComponent from 'components/error-component';
 import React, { useEffect, useState } from 'react';
+import { History, Location } from 'history';
 import { useHistory, useParams } from 'react-router';
 import { useLocation } from 'react-router-dom';
 import { PAGE_SIZE, StateActionTypes } from 'src/constants';
@@ -11,8 +12,8 @@ import Description from './description';
 
 const IssueDetail: React.FC = () => {
   const [lists, setList] = useState([]);
-  const history = useHistory();
-  const location = useLocation();
+  const history: History = useHistory();
+  const location: Location = useLocation();
   const { repo, repoOwner, issueNumber } = useParams<Record<string, string | undefined>>();
   const [GetIssueDetailsQuery, { loading, data, error, fetchMore }] = useGetIssueDetailsLazyQuery({
     notifyOnNetworkStatusChange: true,

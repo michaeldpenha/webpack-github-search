@@ -20,4 +20,6 @@ export interface IMessages {
   noContentAvailable: string;
   issueSearch: string;
   repoSearch: string;
+  issueCount: string;
+  githubRepos: string;
 }

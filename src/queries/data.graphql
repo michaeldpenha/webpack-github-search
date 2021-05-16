@@ -54,6 +54,7 @@ query getSearch(
   $type: SearchType!
 ) {
   search(after: $after, before: $before, first: $first, last: $last, query: $query, type: $type) {
+    issueCount
     edges {
       node {
         ... on Issue {

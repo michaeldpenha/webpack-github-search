@@ -26,6 +26,10 @@ export const Label = styled.label`
   font-size: ${getStylesSize(10)};
 `;
 
-export const ListContainer = styled.div`
+export const ListContainer = styled.main`
   padding-top: ${getStylesSize(7)};
+
+  & strong {
+    font-size: ${getStylesSize(9)};
+  }
 `;

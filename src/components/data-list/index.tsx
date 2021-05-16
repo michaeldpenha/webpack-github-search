@@ -36,12 +36,9 @@ const DataList: React.FC<ILists> = (props) => {
   };
 
   const Component = tuppleSelector(type);
-  const tupples = data.map((item: IData, index: number) => {
-    //const Component = tuppleSelector(item['__typename']);
-    return (
-      <Component key={`${item.id}_${index}`} data={item} onTuppleClick={onClick} type={type} />
-    );
-  });
+  const tupples = data.map((item: IData, index: number) => (
+    <Component key={`${item.id}_${index}`} data={item} onTuppleClick={onClick} type={type} />
+  ));
 
   return (
     <>

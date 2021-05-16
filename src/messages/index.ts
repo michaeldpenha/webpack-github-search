@@ -22,4 +22,6 @@ export const MESSAGES: IMessages = {
   noContentAvailable: 'No Content available',
   issueSearch: 'Search issue by name or body',
   repoSearch: 'Search Repo by name',
+  issueCount: '{0} Issues found for {1} in {2} state',
+  githubRepos: 'All Github repos',
 };
