@@ -14,6 +14,10 @@ export const IssueTuppleContainer = styled.div`
     font-size: ${getStylesSize(10)};
     background-color: ${(props) => props.theme.colors.titleBackground};
     line-height: ${getStylesSize(20)};
+
+    @media (max-width: 420px) {
+      line-height: ${getStylesSize(15)};
+    }
   }
 
   & article {
@@ -56,6 +60,12 @@ export const CommentTuppleContainer = styled.div`
     padding: ${getStylesSize(20)};
     font-size: ${getStylesSize(9)};
     word-wrap: break-word;
+
+    & pre {
+      overflow: auto;
+      background-color: ${(props) => props.theme.colors.titleBackground};
+      padding: ${getStylesSize(2)};
+    }
   }
 `;
 

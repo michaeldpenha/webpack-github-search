@@ -12,6 +12,7 @@ export const LookUpContainerItems = styled.div`
   height: ${getStylesSize(100)};
   overflow: auto;
   border: 1px solid ${(props) => props.theme.colors.primary};
+  z-index: 1;
 `;
 
 export const DropDownList = styled.ul`

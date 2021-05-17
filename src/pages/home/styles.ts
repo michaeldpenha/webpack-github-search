@@ -4,11 +4,19 @@ import { getStylesSize } from 'utils/styles';
 export const Row = styled.div`
   display: flex;
   flex-wrap: wrap;
+
+  @media (max-width: 420px) {
+    flex-direction: column;
+  }
 `;
 
 export const Column = styled.div`
   flex: 1 0 0%;
   padding: 0 ${getStylesSize(15)};
+
+  @media (max-width: 420px) {
+    padding: ${getStylesSize(5)} 0 0 0;
+  }
 `;
 
 export const DropDownContainer = styled(Column)`

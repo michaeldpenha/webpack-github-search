@@ -1,5 +1,5 @@
 import React from 'react';
-import { act, render, screen } from '@testing-library/react';
+import { act, screen } from '@testing-library/react';
 import App from '../app';
 import { MockedProvider } from '@apollo/react-testing';
 import { Router } from 'react-router-dom';
@@ -8,7 +8,6 @@ import { IAppContextProps } from 'src/state/interface';
 import { appReducer } from 'src/state/reducer';
 import { createMemoryHistory } from 'history';
 import renderEl from 'src/testUtils/tests-render';
-import { apolloClient } from 'utils/apollo-client';
 
 const history = createMemoryHistory();
 
@@ -40,14 +39,5 @@ describe('Aplication Test', () => {
 
     const el = screen.getByTestId('header-title');
     expect(el).toBeInTheDocument();
-  });
-
-  it('should render home page when bad route is passed', () => {
-    history.push('/test');
-
-    act(() => {
-      setup();
-    });
-    expect(screen.getByTestId('drop-down-container')).toBeInTheDocument();
   });
 });

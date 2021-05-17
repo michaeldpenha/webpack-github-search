@@ -20,7 +20,7 @@ exports[`testing issue detail renders issue detail 1`] = `
     </p>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
@@ -33,14 +33,14 @@ exports[`testing issue detail renders issue detail 1`] = `
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 11 days ago
+      bvaughn commented 12 days ago
     </header>
     <article>
       <p>
@@ -87,14 +87,14 @@ exports[`testing issue detail renders issue detail 1`] = `
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/8448004?v=4"
       />
-      ZackeryBayle commented 10 days ago
+      ZackeryBayle commented 11 days ago
     </header>
     <article>
       <p>
@@ -131,14 +131,14 @@ I am pretty new so please forgive the crazy mess you are about to witness.
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 10 days ago
+      bvaughn commented 11 days ago
     </header>
     <article>
       <p>
@@ -174,14 +174,14 @@ I am pretty new so please forgive the crazy mess you are about to witness.
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/8448004?v=4"
       />
-      ZackeryBayle commented 10 days ago
+      ZackeryBayle commented 11 days ago
     </header>
     <article>
       <p>
@@ -211,14 +211,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/8448004?v=4"
       />
-      ZackeryBayle commented 10 days ago
+      ZackeryBayle commented 11 days ago
     </header>
     <article>
       <p>
@@ -242,14 +242,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 10 days ago
+      bvaughn commented 11 days ago
     </header>
     <article>
       <p>
@@ -263,14 +263,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/8448004?v=4"
       />
-      ZackeryBayle commented 10 days ago
+      ZackeryBayle commented 11 days ago
     </header>
     <article>
       <p>
@@ -282,14 +282,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 10 days ago
+      bvaughn commented 11 days ago
     </header>
     <article>
       <p>
@@ -298,14 +298,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 10 days ago
+      bvaughn commented 11 days ago
     </header>
     <article>
       <p>
@@ -334,14 +334,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/8448004?v=4"
       />
-      ZackeryBayle commented 10 days ago
+      ZackeryBayle commented 11 days ago
     </header>
     <article>
       <p>
@@ -355,14 +355,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 10 days ago
+      bvaughn commented 11 days ago
     </header>
     <article>
       <p>
@@ -376,14 +376,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/8448004?v=4"
       />
-      ZackeryBayle commented 9 days ago
+      ZackeryBayle commented 10 days ago
     </header>
     <article>
       <p>
@@ -392,14 +392,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 9 days ago
+      bvaughn commented 10 days ago
     </header>
     <article>
       <p>
@@ -418,14 +418,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/8448004?v=4"
       />
-      ZackeryBayle commented 9 days ago
+      ZackeryBayle commented 10 days ago
     </header>
     <article>
       <p>
@@ -439,14 +439,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 9 days ago
+      bvaughn commented 10 days ago
     </header>
     <article>
       <p>
@@ -455,14 +455,14 @@ Page still renders
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/8398353?u=f1f81a0994d6f37ef6811c64718080bef77ec26f&v=4"
       />
-      yrambler2001 commented 9 days ago
+      yrambler2001 commented 10 days ago
     </header>
     <article>
       <p>
@@ -484,14 +484,14 @@ happens randomly for me too
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 9 days ago
+      bvaughn commented 10 days ago
     </header>
     <article>
       <p>
@@ -510,14 +510,14 @@ happens randomly for me too
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/8398353?u=f1f81a0994d6f37ef6811c64718080bef77ec26f&v=4"
       />
-      yrambler2001 commented 9 days ago
+      yrambler2001 commented 10 days ago
     </header>
     <article>
       <p>
@@ -536,14 +536,14 @@ happens randomly for me too
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 8 days ago
+      bvaughn commented 9 days ago
     </header>
     <article>
       <p>
@@ -552,14 +552,14 @@ happens randomly for me too
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/12292047?u=b680d2aedb93269d597e78306e6e136c8ebaf328&v=4"
       />
-      eps1lon commented 8 days ago
+      eps1lon commented 9 days ago
     </header>
     <article>
       <p>
@@ -651,14 +651,14 @@ Steps included in repro.
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 7 days ago
+      bvaughn commented 8 days ago
     </header>
     <article>
       <p>
@@ -705,14 +705,14 @@ Steps included in repro.
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 4 days ago
+      bvaughn commented 5 days ago
     </header>
     <article>
       <p>
@@ -844,14 +844,14 @@ Steps included in repro.
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 4 days ago
+      bvaughn commented 5 days ago
     </header>
     <article>
       <p>
@@ -869,14 +869,14 @@ Steps included in repro.
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 3 days ago
+      bvaughn commented 4 days ago
     </header>
     <article>
       <p>
@@ -1912,14 +1912,14 @@ expect(store).toMatchInlineSnapshot(\`
     </article>
   </div>
   <div
-    class="styles__CommentTuppleContainer-sc-1oca8og-1 fNzNgw"
+    class="styles__CommentTuppleContainer-sc-1oca8og-1 cIzMDV"
   >
     <header>
       <img
         alt="avatar"
         src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
       />
-      bvaughn commented 3 days ago
+      bvaughn commented 4 days ago
     </header>
     <article>
       <p>

@@ -48,6 +48,5 @@ describe('testing Home', () => {
     await wait();
 
     expect(container.textContent).toContain('Github');
-    expect(container).toMatchSnapshot();
   });
 });
